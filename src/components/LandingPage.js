@@ -13,13 +13,13 @@ function LandingPage() {
   return (
     <>
       <HeroSection />
-      <BeforeAfter />
+      {/* <BeforeAfter /> */}
       <FeatureDisplay />
       <DemoSection />
       <PricingSection />
       <FaqSection />
       {/* <AsSeenOn /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FinalPush />
       <Footer />
     </>

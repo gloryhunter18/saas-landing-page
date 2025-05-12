@@ -6,15 +6,15 @@ import { buttonVariants } from "../ui/button";
 
 function HeroSection() {
   return (
-    <section className="bg-slate-50">
+    <section className="bg-blue-50">
       <MaxWidthWrapper className="pt-10 !px-2 lg:!px-10 lg:grid lg:grid-cols-2 lg:gap-x-0 lg:pt-24 lg:pb-20">
         <div className="col-span-1 px-2 lg:px-0">
           <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
-            <h1 className="relative w-fit tracking-tighter text-balance font-bold !leading-tight text-gray-900 text-5xl md:text-6xl">
+            <h1 className="relative w-fit tracking-tighter text-balance font-bold !leading-tight text-blue-700 text-5xl md:text-6xl">
               Never Miss the Next Deal-Making Event.
             </h1>
 
-            <p className="mt-8 text-balance text-lg max-w-prose text-center font-semibold lg:pr-10 md:text-wrap lg:text-left">
+            <p className="mt-8 text-balance text-lg max-w-prose text-center font-semibold text-blue-600 lg:pr-10 md:text-wrap lg:text-left">
               Discover and track the most relevant trade shows and conferences
               for your industry. Get notified the moment a new event in your
               industry goes live.
@@ -23,19 +23,19 @@ function HeroSection() {
             <ul className="hidden mt-8 text-left font-medium md:flex flex-col items-center sm:items-start">
               <div className="space-y-2">
                 <li className="flex gap-1.5 items-center text-left">
-                  <Check className="h-5 w-5 shrink-0 text-green-600" />
+                  <Check className="h-5 w-5 shrink-0 text-purple-500" />
                   Instant visibility into high-impact events in your industry
                 </li>
                 <li className="flex gap-1.5 items-center text-left">
-                  <Check className="h-5 w-5 shrink-0 text-green-600" />
+                  <Check className="h-5 w-5 shrink-0 text-purple-500" />
                   Save hours of manual research with automated discovery
                 </li>
                 <li className="flex gap-1.5 items-center text-left">
-                  <Check className="h-5 w-5 shrink-0 text-green-600" />
+                  <Check className="h-5 w-5 shrink-0 text-purple-500" />
                   Never miss a sponsorship or booth opportunity again
                 </li>
                 <li className="flex gap-1.5 items-center text-left">
-                  <Check className="h-5 w-5 shrink-0 text-green-600" />
+                  <Check className="h-5 w-5 shrink-0 text-purple-500" />
                   Get real-time email alerts tailored to your sales verticals
                 </li>
               </div>
@@ -46,13 +46,14 @@ function HeroSection() {
               href="#"
               className={cn(
                 buttonVariants({ size: "lg" }),
-                "flex items-center justify-center mt-8 group"
+                "flex items-center justify-center mt-8 group bg-blue-600 hover:bg-blue-700 text-white border-none"
               )}
             >
               <span>Start Now</span>
               <ArrowRight className="ml-1.5 transform h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
 
+            {/*
             <div className="mt-12 flex flex-col sm:flex-row sm:items-start items-center gap-5">
               <div className="flex -space-x-3">
                 <img
@@ -99,11 +100,12 @@ function HeroSection() {
                 </p>
               </div>
             </div>
+            */}
           </div>
         </div>
 
         <div className="col-span-full mt-14 md:mt-0 lg:col-span-1">
-          <div className="w-full h-60 lg:h-full rounded-3xl bg-gray-200/80 flex items-center justify-center">
+          <div className="w-full h-60 lg:h-full rounded-3xl bg-purple-50 flex items-center justify-center">
             <h1 className="text-center text-lg font-bold">Your graphic</h1>
           </div>
         </div>
