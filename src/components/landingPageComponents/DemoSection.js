@@ -7,7 +7,7 @@ function DemoSection() {
         <h1 className="font-bold text-3xl text-center">
           Hey there, it's{" "}
           <a
-            href="https://x.com/HairunHuang"
+            href="https://www.linkedin.com/in/liam-r-mcevoy/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline hover:underline-offset-2"
@@ -31,19 +31,19 @@ function DemoSection() {
         </p>
 
         {/* demo video */}
-        <div className="my-20 scroll-mt-28 w-full" id="demo">
+        {/* <div className="my-20 scroll-mt-28 w-full" id="demo">
           <div className="w-full lg:w-4/5 lg:mx-auto h-72 lg:h-96 shadow-md bg-gray-200 rounded-xl flex items-center justify-center">
             <h1 className="font-bold text-xl">Your Demo</h1>
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex items-center justify-center mb-4">
+        {/* <div className="flex items-center justify-center mb-4">
           <ChevronDown className="animate-bounce w-10 h-10 text-gray-600" />
-        </div>
+        </div> */}
 
-        <div className="font-medium text-center text-2xl text-gray-600 hover:text-gray-800 cursor-pointer">
+        {/* <div className="font-medium text-center text-2xl text-gray-600 hover:text-gray-800 cursor-pointer">
           Try it now
-        </div>
+        </div> */}
       </div>
     </section>
   );

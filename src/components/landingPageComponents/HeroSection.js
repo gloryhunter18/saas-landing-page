@@ -14,10 +14,9 @@ function HeroSection() {
               Never Miss the Next Deal-Making Event.
             </h1>
 
-            <p className="mt-8 text-balance text-lg max-w-prose text-center font-semibold text-blue-600 lg:pr-10 md:text-wrap lg:text-left">
+            <p className="mt-8 text-balance text-lg max-w-prose text-center font-medium text-blue-500 lg:pr-10 md:text-wrap lg:text-left">
               Discover and track the most relevant trade shows and conferences
-              for your industry. Get notified the moment a new event in your
-              industry goes live.
+              for your industry.
             </p>
 
             <ul className="hidden mt-8 text-left font-medium md:flex flex-col items-center sm:items-start">

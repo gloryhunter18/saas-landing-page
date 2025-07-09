@@ -27,7 +27,7 @@ function FaqSection() {
     {
       question: "What industries do you cover?",
       answer:
-        "We currently cover sectors like Private Markets, Technology, Crypto, Finance, and B2B Sales — with more verticals being added all the time. Please suggest more here.",
+        "We currently cover several sectors and are always adding more — Email liam@conferencefinder.net to suggest more.",
     },
     {
       question: "How do email alerts work?",
@@ -35,9 +35,10 @@ function FaqSection() {
         "You set your preferred industries and formats, and we'll notify you when new matching events are found — daily, weekly, or in real time (depending on your preferences).",
     },
     {
-      question: "Do you take affiliate commissions or promote certain events?",
+      question:
+        "If I run conferences and want to post my event, can I and how do I do that?",
       answer:
-        "Yes — we offer premium placements for event organizers who want to be featured at the top of relevant search results. To sponsor your event and boost visibility, reach out to hello@conferencefinder.app.",
+        "Yes — we offer premium placements for event organisers who want to be featured at the top of relevant search results. To sponsor your event and boost visibility, reach out to liam@conferencefinder.net.",
     },
   ];
 

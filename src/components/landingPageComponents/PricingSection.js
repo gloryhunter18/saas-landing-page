@@ -94,7 +94,7 @@ function PricingSection() {
             </h3>
 
             <p className="font-bold mb-6 text-center">
-              <span className="text-6xl text-blue-600">$6 </span>
+              <span className="text-6xl text-blue-600">$9 </span>
               <span className="text-xs text-blue-400">/ month</span>
             </p>
 
@@ -108,7 +108,7 @@ function PricingSection() {
               </p>
             </div>
 
-            <div className="px-6 mb-6">
+            <div className="px-6">
               <div className="flex items-center justify-center cursor-pointer px-5 py-[0.5rem] rounded-full bg-purple-100 font-medium text-purple-600 border border-purple-700">
                 Coming Soon
               </div>
@@ -136,9 +136,9 @@ function PricingSection() {
             </ul>
 
             <p className="text-center text-sm text-black mt-auto px-6 py-4 bg-blue-50 rounded-lg">
-              💡 Paid email alerts are our first premium feature — designed to
-              save you hours of manual research while helping you hit your sales
-              or sponsorship goals.
+              Paid email alerts are our first premium feature — designed to save
+              you hours of manual research while helping you hit your sales or
+              sponsorship goals.
             </p>
           </div>
         </div>
